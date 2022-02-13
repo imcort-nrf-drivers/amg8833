@@ -16,6 +16,7 @@
 
 void amg88xx_begin(void);
 void amg88xx_getIRGrid(int16_t* temp_grid);
+float amg88xx_getChipTemp(void);
 
 void amg88xx_on(void);
 void amg88xx_sleep(void);
